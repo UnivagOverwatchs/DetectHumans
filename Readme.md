@@ -81,6 +81,21 @@ Ao final, os pesos treinados serao salvos em:
 
 - `runs/detect/detect_human/ex1/weights/best.pt`
 - `runs/detect/detect_human/ex1/weights/last.pt`
+## Prototipo PWA (Web/Mobile)
+Como parte do Projeto Extensionista Integrador (PWAs com Frameworks Avancados), foi criado um prototipo navegavel da camada de interface que consumiria a deteccao feita pelo YOLOv8, cobrindo desktop e mobile.
+
+**Prototipo interativo:** https://claude.ai/code/artifact/a8b1345c-c397-4796-80c3-3e5fced717e4
+
+### Telas
+
+| Painel (desktop) | Historico (desktop) | Configuracoes (desktop) |
+|---|---|---|
+| ![Painel desktop](docs/design/01-desktop-painel.png) | ![Historico desktop](docs/design/02-desktop-historico.png) | ![Configuracoes desktop](docs/design/03-desktop-configuracoes.png) |
+
+| Painel (mobile) | Alerta de queda (mobile) |
+|---|---|
+| ![Painel mobile](docs/design/04-mobile-painel.png) | ![Alerta mobile](docs/design/05-mobile-alerta.png) |
+
 ## Proximas Etapas
 
 - aumentar e balancear o dataset;
